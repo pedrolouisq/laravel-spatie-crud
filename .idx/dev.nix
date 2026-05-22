@@ -3,21 +3,10 @@
 
   packages = [
     pkgs.php83
-    pkgs.php83Extensions.pdo_sqlite
-    pkgs.php83Extensions.sqlite3
-    pkgs.php83Extensions.mbstring
-    pkgs.php83Extensions.openssl
-    pkgs.php83Extensions.tokenizer
-    pkgs.php83Extensions.xml
-    pkgs.php83Extensions.ctype
-    pkgs.php83Extensions.curl
-    pkgs.php83Extensions.fileinfo
     pkgs.php83Packages.composer
-    pkgs.nodejs_20
     pkgs.sqlite
+    pkgs.nodejs_20
   ];
-
-  env = {};
 
   idx = {
     extensions = [
